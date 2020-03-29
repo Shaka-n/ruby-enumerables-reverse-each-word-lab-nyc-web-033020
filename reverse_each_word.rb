@@ -4,7 +4,6 @@ def reverse_each_word(string)
   pp array
   array.collect do |word| 
     word.reverse
-    puts word
     #reversed_words.concat("#{word.reverse}#{word==array.last ? "":" "}")
   end
   #puts reversed_words
