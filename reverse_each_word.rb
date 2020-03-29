@@ -3,7 +3,8 @@ def reverse_each_word(string)
   reversed_words = ""
   pp array
   array.collect do |word| 
-    reversed_words.concat("#{word.reverse}#{word==array.last ? "":" "}")
+    word.reverse
+    #reversed_words.concat("#{word.reverse}#{word==array.last ? "":" "}")
   end
   puts reversed_words
   reversed_words
