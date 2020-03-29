@@ -7,5 +7,5 @@ def reverse_each_word(string)
     reversed_words.concat(word.reverse)
   end
   #reverse_array.to_s
-  reverse_words
+  reversed_words
 end
