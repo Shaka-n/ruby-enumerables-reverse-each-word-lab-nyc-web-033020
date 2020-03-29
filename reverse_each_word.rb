@@ -1,5 +1,4 @@
 def reverse_each_word(string)
-  reverse_array
   reverse_array = string.split(/ /)
   pp reverse_array
   puts reverse_array[0].reverse
