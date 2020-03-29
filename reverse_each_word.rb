@@ -4,7 +4,7 @@ def reverse_each_word(string)
   reversed_words =""
   pp array
   reverse_array.each do |word| 
-    reversed_words.concat("#{word.reverse} ")
+    reversed_words.concat(word.reverse)
   end
   puts reversed_words
   reversed_words
