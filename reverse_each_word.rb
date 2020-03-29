@@ -6,6 +6,6 @@ def reverse_each_word(string)
     word.reverse
     #reversed_words.concat("#{word.reverse}#{word==array.last ? "":" "}")
   end
-  puts reversed_words
-  reversed_words
+  #puts reversed_words
+  #reversed_words
 end
